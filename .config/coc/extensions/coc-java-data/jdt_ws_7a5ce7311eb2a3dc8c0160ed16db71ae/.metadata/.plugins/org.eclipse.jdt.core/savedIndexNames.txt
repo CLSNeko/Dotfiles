@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/marieinu/.config/coc/extensions/coc-java-data/jdt_ws_7a5ce7311eb2a3dc8c0160ed16db71ae/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+1922655729.index

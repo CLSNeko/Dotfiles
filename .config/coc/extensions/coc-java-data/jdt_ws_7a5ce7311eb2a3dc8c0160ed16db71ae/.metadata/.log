@@ -1,0 +1,117 @@
+!SESSION 2022-07-29 11:20:44.883 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/marieinu/.config/coc/extensions/coc-java-data/jdt_ws_7a5ce7311eb2a3dc8c0160ed16db71ae
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:45.933
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.051
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.084
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.085
+!MESSAGE Initializing Java Language Server 1.15.0.202207221922
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.127
+!MESSAGE Installed reference:file:/home/marieinu/.config/coc/extensions/node_modules/coc-java-debug/server/com.microsoft.java.debug.plugin-0.36.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.185
+!MESSAGE Started reference:file:/home/marieinu/.config/coc/extensions/node_modules/coc-java-debug/server/com.microsoft.java.debug.plugin-0.36.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.189
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.190
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.195
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.206
+!MESSAGE Wait for AutoBuildOffJob end 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.207
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.207
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.208
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.208
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.222
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.223
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.230
+!MESSAGE Started org.eclipse.buildship.core 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.241
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.254
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.262
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.300
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:46.788
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.241
+!MESSAGE Workspace initialized in 1998ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.254
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.256
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.264
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, debug={vimspector={profile=Java Attach, substitution={adapterPort=AdapterPort}}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.265
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.684
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.841
+!MESSAGE begin problem for /Employee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.842
+!MESSAGE 1 problems reported for /Employee.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.847
+!MESSAGE Validated 1. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.861
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.879
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.882
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:48.884
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:59.746
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-07-29 11:20:59.748
+!MESSAGE Clearing problems for /Employee.java
